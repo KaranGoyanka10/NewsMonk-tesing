@@ -19,7 +19,7 @@ export class News extends Component {
     super();
     this.state = {
       articles:[],
-      loading:true,
+      loading:false,
       page:1,
       totalArticles:0
     }
